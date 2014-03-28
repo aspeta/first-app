@@ -21,3 +21,9 @@ module FirstApp
     # config.i18n.default_locale = :de
   end
 end
+# config/application.rb
+
+    config.assets.version = '1.0'
+    config.assets.initialize_on_precompile = false
+  end
+end
