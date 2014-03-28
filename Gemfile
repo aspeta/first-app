@@ -6,6 +6,9 @@ gem 'rails', '4.0.4'
 # Use sqlite3 as the database for Active Record
 # Gemfile
 
+gem 'newrelic_rpm'
+
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
